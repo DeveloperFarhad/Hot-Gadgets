@@ -1,0 +1,121 @@
+.logo{
+    width:150px
+}
+.container{
+    margin-top:20px;
+
+}
+.bg-color li a{
+    color:gray;
+    font-size:14.5px;
+}
+.nav-link:hover{
+    color:#fb5200;
+    transition:0.5s
+
+}
+.buy-now-button{
+    background-color: black;
+    padding:10px;
+    color:white;
+    border-radius: 5px;
+}
+.buy-now-button:hover{
+    background-color: aqua;
+    color:black;
+    transition:.6s
+}
+.orange-bg{
+
+    background-image: url(Images/bg-2.png);
+    background-position:bottom left;
+    background-repeat: no-repeat;
+    background-size:150px;
+}
+.orange2-bg{
+    
+
+    background-image: url(Images/bg-1.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 70px;
+
+}
+.sPhone {
+    margin:30px
+}
+
+.sPhone span{
+    float:right;
+    margin-top:-25px;
+    margin-left:-45px;
+    cursor: pointer;
+    color:yellowgreen
+}
+.sPhone span:hover{
+
+    color: darkorange;
+    transition:0.5s
+}
+.catagories{
+    margin-top:130px
+}
+.card{
+   border-radius:5px;
+   border:none;
+   box-shadow: 2px 1px 10px gray;
+
+
+}
+.card-body{
+    text-align: center;
+}
+.text-center{
+
+    text-align: center;
+    padding-bottom: 5%;
+
+    padding-top: 15%;
+
+}
+.hover-border{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    position:relative
+
+}
+.hover-border::after{
+    content: '';
+    width:10%;
+    height:7px;
+    background-image: linear-gradient(to right, darkorange, orange);
+    position: absolute;
+    bottom: -25%;
+    left:45.3%;
+    border-radius: 10px;
+    transition: all 500ms ease infinite;
+
+
+}
+
+.Fwidth{
+    width:160px;
+    padding:40px;
+    text-align: center;
+    margin:20px;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 3px 3px 10px 5px gainsboro;
+
+} 
+.Fwidth img{
+    width:100%
+}
+.cata3{
+    width:600px
+}
+.cata3 img{
+    width:100%
+}
+.footer{
+    margin-bottom: 100px;
+}
